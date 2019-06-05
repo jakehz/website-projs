@@ -15,3 +15,4 @@ for (var i = 0; i < lis.length; i++) {
     this.style.fontSize = String(this.num) + "px";
   })
 }
+// test
