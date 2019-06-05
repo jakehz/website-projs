@@ -1,0 +1,20 @@
+body {
+	margin: 0px;
+}
+
+nav {
+	background: #515151;
+	width: 100%;
+	padding: 15px;
+}
+nav ul{
+	display: inline-block;
+}
+nav ul li {
+	color: #e7e3e3;
+	display: inline;
+	margin: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+
+

@@ -1,0 +1,101 @@
+body {
+		background: url(imgs/subtle_white_feathers.png);
+		background-repeat: repeat;
+		font-family: "Noto Sans SC", sans;
+}
+#mainbar a {
+	color: white;
+}
+.navbar-brand {
+		font-family: "Fjalla One", sans;
+}
+#myVideo {
+	position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+	z-index: -100;
+	width: auto;
+	height: 150%;
+}
+.jumbotron {
+		min-height: 100vh;
+		background: url(imgs/laptop.mp4);
+		background-size: cover;
+		color: white;
+		text-shadow: 2px 2px 3px #000000;
+		font-family: "Roboto Mono", monospace;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+#resumecontent {
+		margin-top: 5em;
+}
+.jumbotron .container {
+		min-height: 70vh;
+}
+
+#experiencetext{
+		background: #0C090A;
+		color: white;
+}
+
+#resumebar {
+	background: #0C090A;
+}
+
+.links {
+	background:	#20639B; 
+	color: white;
+}
+.links a {
+	color: white;
+}
+.content-bar {
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: .5%;
+}
+.maincontent {
+	background: #313639;
+	color: white;
+}
+.bottom-content {
+	font-size: 2rem;
+	background: #F6d55c;
+	color: white;
+}
+.bottom-content a {
+	color: white;
+}
+.row {
+	margin-right: 0px;
+}
+
+.sidecontent {
+		background: white;
+		color: #3CAEA3; 
+}
+
+
+.navbar.scrolled {
+	background: #313639;
+	transition: 500ms;
+	border-bottom: 1px solid;
+}
+#mainbar.scrolled a {
+	color: white;
+}

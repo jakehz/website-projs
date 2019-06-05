@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+		<head>
+				<title></title>
+				<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+				<link rel="stylesheet" type="text/css" href="mystyle.css">
+				<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Ubuntu|Roboto+Mono" rel="stylesheet">
+		</head>
+		<body>
+				<nav id="mainbar" class="navbar navbar-expand-lg fixed-top navbar-dark">
+						<div class="container">
+						<a class="navbar-brand" href="#">Jacob Hernandez</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav mr-auto">
+										<li class="nav-item active">
+												<a class="nav-link" href="#">About me<span class="sr-only">(current)</span></a>
+										</li>
+										<li class="nav-item">
+												<a class="nav-link" href="#">Resume</a>
+										</li>
+										<li class="nav-item dropdown">
+												<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														Social Media
+												</a>
+												<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+														<a class="dropdown-item" href="#">Twitter</a>
+														<a class="dropdown-item" href="#">Github</a>
+												</div>
+										</li>
+								</ul>
+						</div>
+				</nav>
+				<div class="jumbotron jumbotron-fluid">
+						<div class="container pt-5 d-flex flex-column justify-content-center align-items-center">
+								<h1 class="display-5">Software Engineer and Student</h1>
+								<p class="lead">This website houses my resume and any other projects I may work on.</p>
+						</div>
+				</div>
+				<div class="container pb-4">
+						<div class="row mt-4 flex-column flex-lg-row justify-content-center">
+								<div class="maincontent col-xs-12 col-lg-9 p-4">
+										<h1>About me</h1>
+										<p>Resist mobilize low-hanging fruit progress social innovation rubric. Or, a philanthropy thought provoking, our work white paper thought partnership dynamic. Overcome injustice low-hanging fruit humanitarian global, ideate social innovation shine. Fairness expose the truth black lives matter theory of change families communities. Incubator game-changer then venture philanthropy cultivate communities. Society systems thinking deep dive compelling correlation expose the truth. Inspiring do-gooder correlation entrepreneur, progress external partners. Silo living a fully ethical life citizen-centered black lives matter global preliminary thinking. Movements parse, challenges and opportunities, the resistance emerging paradigm and sustainable. Overcome injustice impact improve the world social return on investment LGBTQ+. Then, preliminary thinking, scale and impact ideate strategy LGBTQ+ and commitment. Blended value, social entrepreneur thought provoking white paper inspiring. Targeted activate, social impact a grit; fairness innovation outcomes. Peaceful, social impact; to move the needle impact contextualize scale and impact equal opportunity. Big data because; peaceful activate technology.</p>
+								</div>
+								<div class="sidecontent col-xs-12 col-lg-3 p-4">
+										<p>Social innovation relief, capacity building; ecosystem incubator, triple bottom line milestones strategy. Move the needle black lives matter capacity building gender rights milestones justice.</p>
+								</div>
+						</div>
+				</div>
+
+								<!-- required javascript -->
+				<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		</body>
+</html>

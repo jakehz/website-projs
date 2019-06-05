@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rusty Steele</title>
+	</head>
+	<body>
+		<h1>Rusty Steele</h1>
+		<p>Hi, I'm a dog. Woof!</p>
+		<img href="https://cdn.psychologytoday.com/sites/default/files/styles/article-inline-half/public/field_blog_entry_images/2018-02/vicious_dog_0.png?itok=nsghKOHs">
+		<h3>Some of my favorite places</h3>
+		<ul>
+			<li>The beach</li>
+			<li>The park</li>
+			<li>The firey gates of hell</li>
+		</ul>
+		<p>Make sure to follow me on <a href ="#">Twitter</a>
+	</body>
+</html>

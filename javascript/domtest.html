@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM Test</title>
+    <style>
+        .big {
+            background: orange;
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Site</h1>
+    <p>Welcome to my site!!</p>
+    <script>
+        h1 = document.getElementsByTagName("h1")[0];
+        setInterval(function(){
+            h1.classList.toggle("big");
+        }, 700);
+    </script>
+</body>
+</html>

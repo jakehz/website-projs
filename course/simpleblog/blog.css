@@ -1,0 +1,54 @@
+body {
+	max-width: 700px;
+	width: 80%;
+	margin: 15px auto 0 auto;
+	border: 20px #bdc3c7 solid;
+	padding: 20px;
+}
+
+h3 {
+	margin: 0;
+	color: #3498db;
+	text-transform: uppercase;
+	font-family: "Source Sans Pro", sans;
+	letter-spacing: 3px;
+}
+
+h2 {
+	font-family: "Source Sans Pro", sans;
+	color: #2c3e50;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+p {
+	font-family: "Source Sans Pro", sans;
+}
+.quote {
+	margin-left: 5px;
+	padding-left: 5px;
+	border-left: 5px lightgray solid;
+}
+
+div.post {
+	margin: 0 0 25px 0;
+}
+
+/* Glyph, by Harry Roberts */
+hr{
+	overflow: visible; /* For IE */
+	padding: 0;
+	border: none;
+	border-top: medium double #333;
+	color: #333;
+	text-align: center;
+}
+hr:after{
+	content: "§";
+	display: inline-block;
+	position: relative;
+	top: -0.7em;
+	font-size: 1.5em;
+	padding: 0 0.25em;
+	background: white;
+}

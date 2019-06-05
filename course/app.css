@@ -1,0 +1,19 @@
+h1 {
+	color: #5c0883;
+	background:#cbd241;
+	border: 5px dashed red;
+}
+
+li {
+	color: #DEDBEE;
+	background:#4e41d2;
+}
+
+h4 {
+	background: rgb(225,100,65);
+}
+
+body {
+	background: pink;
+	/*background: url(https://i.pinimg.com/originals/09/9b/d3/099bd3210d415deaf540364dfb0d15c3.jpg);*/
+}

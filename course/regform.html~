@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration</title>
+	</head>
+	<body>
+		<h1>Register</h1>
+		<form>
+			<label>First Name:<input type="text" placeholder="John" required></label>
+			<label>LastName</label>
+			
+		</form>
+	</body>
+</html>

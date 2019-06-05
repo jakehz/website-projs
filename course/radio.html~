@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>buttons</title>
+	</head>
+	<body>
+		<p>Do you prefer cats or dogs?</p>
+		<form>
+			<label for="dogs">Dogs:</label>
+			<input name ="petChoice" id ="dogs" type="radio">
+			<label for="cats">Cats:</label>
+			<input name ="petChoice" id="cats" type="radio">
+			<button>Go!</button>
+		</form>
+	</body>
+</html>

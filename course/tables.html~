@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Test table</title>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td>Red</td>
+				<td>Orange</td>
+				<td>Blue</td>
+			</tr>
+			<tr>
+				<td>Fire Hydrant</td>
+				<td>Oranges</td>
+				<td>Ocean</td>
+			</tr>
+			<tr>
+				<td>Strawberries</td>
+				<td>Sunset</td>
+				<td>Sky</td>
+			</tr>
+		</table>
+	</body>
+</html>

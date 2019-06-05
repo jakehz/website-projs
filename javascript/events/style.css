@@ -1,0 +1,12 @@
+.invisible {
+  color: white;
+}
+
+.visible {
+  color: red;
+  font-weight: 900;
+}
+
+li {
+  font-size: 15px;
+}
