@@ -6,8 +6,99 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Patatap Clone</title>
     <script type="text/javascript" src="paper-full.js"></script>
+    <link rel="stylesheet" href="circles.css">
+    <script  type="text/javascript" src="howler.js"></script>
+    <script type="text/paperscript" canvas="myCanvas" >
+        var sounds = ["bubbles.mp3",
+                    "clay.mp3",
+                    "confetti.mp3",
+                    "corona.mp3",
+                    "dotted-spiral.mp3",
+                    "flash-1.mp3",
+                    "flash-2.mp3",
+                    "flash-3.mp3",
+                    "glimmer.mp3",
+                    "moon.mp3",
+                    "pinwheel.mp3",
+                    "piston-1.mp3",
+                    "piston-2.mp3",
+                    "piston-3.mp3",
+                    "prism-1.mp3",
+                    "prism-2.mp3",
+                    "prism-3.mp3",
+                    "splits.mp3",
+                    "squiggle.mp3",
+                    "strike.mp3",
+                    "suspension.mp3",
+                    "timer.mp3",
+                    "ufo.mp3",
+                    "veil.mp3",
+                    "wipe.mp3",
+                    "zig-zag.mp3"]
+        var soundObjs = []
+
+        
+        for (var i = 0; i < sounds.length; i++) {
+            soundObjs.push(new Howl({
+                src: ["sounds/" + sounds[i]]
+            }));
+        }
+
+        var keyData  = {
+            a: {
+                color: "purple",
+                sound: soundObjs[0]
+            },
+            s: {
+                color: "blue",
+                sound: soundObjs[1]
+            },
+            d: {
+                color: "green",
+                sound: soundObjs[2]
+            },
+            f: {
+                color: "red",
+                sound: soundObjs[3]
+            },
+            g: {
+                color:"lightblue",
+                sound: soundObjs[4]
+            }
+        }
+        var circles = []
+        var radius = 10;
+        function onKeyDown(event) {
+            if (keyData[event.key]) {
+                // generate the highest x, y value for the current window and store in a point object
+                var maxPoint = new Point(view.size.width, view.size.height);
+                // generates point between 0,0 and 1,1 
+                var randomPoint = Point.random();
+                // mult fractional point with max to give random point
+                var point = maxPoint * randomPoint;
+                var newCircle = new Path.Circle(point, 500);
+                newCircle.fillColor = keyData[event.key].color;
+                keyData[event.key].sound.play();
+                circles.push(newCircle);
+            }
+        }
+
+        function onFrame(event) {
+            for (var i = 0; i < circles.length; i++) {
+                circles[i].fillColor.hue += 1;
+                circles[i].scale(.9);
+                if(circles[i].area < 1){
+                circles[i].remove(); // remove the circle from the canvas
+                circles.splice(i, 1); // remove the circle from the array
+                console.log(circles);
+                }
+            }
+        }
+                
+    </script>
+
 </head>
 <body>
-    <canvas id="myCanvas" resize></canvas>
+    <canvas id="myCanvas" resize="true"></canvas>
 </body>
 </html>
