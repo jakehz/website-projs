@@ -1,24 +1,22 @@
 var express = require("express");
 var app = express();
 
-app.use(express.json({type: 'application/json'}));
+app.use(express.urlencoded({extended: true}));
 // set express to look for ejs files
 app.set("view engine", "ejs");
-
+var friends = ["Tony", "Miranda", "Justin", "Pierre", "Lily"];
 // default route
 app.get("/", function(req, res){
     res.render("home");
 });
 
 app.get("/friends", function(req,res){
-    var friends = ["Tony", "Miranda", "Justin", "Pierre", "Lily"];
     res.render("friends", {friends: friends});
 });
 
 app.post("/addfriend", function(req, res){
-   
-    console.log(req.body);
-    res.send("You have attempted to add a friend");
+    friends.push(req.body.newfriend);
+    res.redirect("/friends");
 })
 // server listen
 app.listen(8000, function(){
