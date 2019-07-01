@@ -1,8 +1,7 @@
 var express = require("express");
 var app = express();
-var bodyParser = require("body-parser");
 
-app.use(bodyParser.urlencoded({extended:true}));
+app.use(express.json({type: 'application/json'}));
 // set express to look for ejs files
 app.set("view engine", "ejs");
 
@@ -17,6 +16,7 @@ app.get("/friends", function(req,res){
 });
 
 app.post("/addfriend", function(req, res){
+   
     console.log(req.body);
     res.send("You have attempted to add a friend");
 })
