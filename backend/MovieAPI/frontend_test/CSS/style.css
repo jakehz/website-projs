@@ -1,3 +1,16 @@
 html, body {
     height: 70%;
 }
+
+#mainContent {
+    padding: 11%;
+}
+#search {
+    width: 80%;
+}
+.btn {
+    float: right;
+}
+#mainBox {
+    padding: 0;
+}
