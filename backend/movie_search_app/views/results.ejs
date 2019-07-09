@@ -1,0 +1,9 @@
+<h1>Welcome to the movie wiki</h1>
+<h2>Here's a bunch of movies with <%= term %> in the name:</h2>
+<ul>
+    <% for (var i = 0; i < search.length; i++) {%>
+        <li><%= search[i]["Title"] %></li>
+    <% } %>
+</ul>
+
+<a href="/">Return</a>
